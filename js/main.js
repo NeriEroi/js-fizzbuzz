@@ -9,7 +9,7 @@
 var numeroIterazioni = 100;
 
 
-for (var i = 0; i < numeroIterazioni; i++) 
+for (var i = 0; i < numeroIterazioni + 1; i++) 
 {
     if ((i % 3 == 0) && (i % 5 == 0))
     {
