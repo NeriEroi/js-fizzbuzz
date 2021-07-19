@@ -8,31 +8,29 @@
 
 var numeroIterazioni = 100;
 
-console.log(i + 1);
 
-
-for (var i = 0; i < numeroIterazioni; i++)
-
+for (var i = 0; i < numeroIterazioni; i++) 
 {
-    if (i % 3 == 0)
-    {    
-
-        console.log(i + " Fizz");
-
+    if ((i % 3 == 0) && (i % 5 == 0))
+    {
+     console.log("FizzBuzz");
+    }
+    else if (i % 3 == 0) {
+     console.log("Fizz");
     }
     else if (i % 5 == 0)
-    {    
-
-        console.log(i + " Buzz");
-
-    }
-    if (i % 3 == 0 && i % 5 == 0)
     {
-
-        console.log(i + " FizzBuzz");
-
+     console.log("Buzz");
+    }
+    else 
+    {
+     console.log(i);
     }
 }
+
+
+
+    
 
 
 
