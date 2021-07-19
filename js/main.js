@@ -2,21 +2,34 @@
 
 // Stampa Fizz per multipli di 3
 
+// Stampa Fizz per multipli di 5
+
 var numeroIterazioni = 100;
+
 
 
 for (var i = 0; i < numeroIterazioni; i++)
 
 {
     console.log(i + 1);
-
+    
     if ((i % 3 == 0))
-    { 
+    {    
 
-    console.log("Fizz");
+        console.log(i + "Fizz");
 
     }
+
+    else if ((i % 5 == 0))
+    {    
+
+        console.log(i + "Buzz");
+
+    }
+
 }
+
+
 
 
 
